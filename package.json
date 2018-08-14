@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://marcin-pasiewicz.github.io/robofriends",
   "dependencies": {
-    "enzyme": "^3.3.0",
+    "enzyme": "^3.4.1",
     "enzyme-adapter-react-16": "^1.1.1",
     "fetch-mock": "^6.3.0",
     "gh-pages": "^1.1.0",
@@ -14,7 +14,7 @@
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
     "react-redux": "^5.0.7",
-    "react-scripts": "1.0.17",
+    "react-scripts": "^1.1.4",
     "react-test-renderer": "^16.3.2",
     "redux": "^3.7.2",
     "redux-logger": "^3.0.6",
@@ -29,7 +29,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "pre-commit": "pretty-quick --staged"
+    "precommit": "pretty-quick --staged"
   },
   "devDependencies": {
     "prettier": "1.14.2"
